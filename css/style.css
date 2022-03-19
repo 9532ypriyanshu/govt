@@ -95,10 +95,14 @@ body {
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 3px 15px;
   margin: 10px 15px;
-  color: #272727;
+  color: #000000;
   text-align: center;
   text-transform: uppercase;
+  font-weight: bold;
 }
+.custom_nav-container .navbar-nav .nav-item  a:hover {
+  transform: scale(1.4);
+} 
 
 a,
 a:hover,
@@ -128,7 +132,7 @@ a:focus {
 .navbar-brand span {
   font-size: 24px;
   font-weight: 700;
-  color: #272727;
+  color: #080808;
   text-transform: uppercase;
 }
 
@@ -162,13 +166,14 @@ a:focus {
   transition: all 0.3s;
 }
 
+
 .custom_nav-container .navbar-toggler span::before, .custom_nav-container .navbar-toggler span::after {
   content: "";
   position: absolute;
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #000000;
+  background-color: #fa0404;
   border-radius: 15px;
   top: -10px;
   -webkit-transition: all 0.3s;
